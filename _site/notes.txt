@@ -1,0 +1,31 @@
+
+# bundle update github-pages
+
+==========================
+
+bundle update --bundler
+
+==========================
+brew install ruby
+
+echo 'export PATH="/opt/homebrew/opt/ruby/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+
+gem install jekyll bundler
+
+gem update --system 4.0.9
+
+jekyll new . --force
+
+bundle install
+
+bundle exec jekyll serve
+bundle exec jekyll serve --livereload
+
+http://127.0.0.1:4000/
+
+==========================
+
+https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+https://jekyllrb.com/docs/collections/
+https://jekyllrb.com/docs/liquid/filters/

@@ -13,7 +13,7 @@ features:
   - title: Firewall rules
     description: The firewall service can manage firewall rules.
 icon: flaticon flaticon-padlock
-image: /assets/infosec.png
+image: /images/infosec.png
 youtube: none
 categories: infra
 ---

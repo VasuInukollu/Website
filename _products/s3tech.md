@@ -12,6 +12,6 @@ features:
   - title: Cost
     icon: ti ti-settings
 icon: none
-image: /assets/single_01.png
+image: /images/single_01.png
 youtube: none
 ---
