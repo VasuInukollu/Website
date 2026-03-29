@@ -1,1 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://www.techsudoku.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.techsudoku.com/" rel="alternate" type="text/html" /><updated>2026-03-30T03:55:23+05:30</updated><id>https://www.techsudoku.com/feed.xml</id><title type="html">Tech Sudoku</title><entry><title type="html">Word and Excel files getting a whole lot safer</title><link href="https://www.techsudoku.com/general/2022/02/27/office-macros.html" rel="alternate" type="text/html" title="Word and Excel files getting a whole lot safer" /><published>2022-02-27T00:00:00+05:30</published><updated>2022-02-27T00:00:00+05:30</updated><id>https://www.techsudoku.com/general/2022/02/27/office-macros</id><content type="html" xml:base="https://www.techsudoku.com/general/2022/02/27/office-macros.html"><![CDATA[]]></content><author><name></name></author><category term="general" /><summary type="html"><![CDATA[Tricking someone into enabling macros on a downloaded Microsoft Excel or Word file is an old hacker chestnut. That one click from a target creates a foothold for attackers to take over their devices. Recently, though, Microsoft announced a seemingly minor tweak with massive implications: Beginning in April, macros will be disabled by default in files downloaded from the internet.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.techsudoku.com/images/Microsoft_Office_LOGO.png" /><media:content medium="image" url="https://www.techsudoku.com/images/Microsoft_Office_LOGO.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">2022</title><link href="https://www.techsudoku.com/general/2021/12/31/new-year.html" rel="alternate" type="text/html" title="2022" /><published>2021-12-31T00:00:00+05:30</published><updated>2021-12-31T00:00:00+05:30</updated><id>https://www.techsudoku.com/general/2021/12/31/new-year</id><content type="html" xml:base="https://www.techsudoku.com/general/2021/12/31/new-year.html"><![CDATA[]]></content><author><name></name></author><category term="general" /><summary type="html"><![CDATA[2022 will be the year where everyone can start afresh. For the past two years, people have taken to their homes to abide by the social distancing rule due to the coronavirus pandemic. We have now been considering celebrating this occasion within the comfort of our homes. The new year marks the beginning of new promises, resolutions and life decisions. It is this time of the year when we all can let go of old disputes and fights, and focus on mending everything for the new year to come.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.techsudoku.com/images/happy-new-year-2022.png" /><media:content medium="image" url="https://www.techsudoku.com/images/happy-new-year-2022.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Log4Shell (CVE-2021-44228)</title><link href="https://www.techsudoku.com/infosec/2021/12/25/log4j.html" rel="alternate" type="text/html" title="Log4Shell (CVE-2021-44228)" /><published>2021-12-25T23:50:46+05:30</published><updated>2021-12-25T23:50:46+05:30</updated><id>https://www.techsudoku.com/infosec/2021/12/25/log4j</id><content type="html" xml:base="https://www.techsudoku.com/infosec/2021/12/25/log4j.html"><![CDATA[]]></content><author><name></name></author><category term="infosec" /><summary type="html"><![CDATA[Log4Shell is a vulnerability in Log4j, a popular Java logging framework, involving arbitrary code execution. Apache gave Log4Shell a CVSS severity rating of 10, the highest available score. It is estimated that the exploit affects hundreds of millions of devices and is very simple to execute.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.techsudoku.com/images/hacker.png" /><media:content medium="image" url="https://www.techsudoku.com/images/hacker.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+    <link href="https://www.techsudoku.com/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://www.techsudoku.com/" rel="alternate" type="text/html" />
+    <updated>2026-03-30T04:03:30+05:30</updated>
+    <id>https://www.techsudoku.com/feed.xml</id>
+    <title type="html">Tech Sudoku</title>
+    <entry>
+        <title type="html">Word and Excel files getting a whole lot safer</title>
+        <link href="https://www.techsudoku.com/general/2022/02/27/office-macros.html"
+            rel="alternate" type="text/html" title="Word and Excel files getting a whole lot safer" />
+        <published>2022-02-27T00:00:00+05:30</published>
+        <updated>2022-02-27T00:00:00+05:30</updated>
+        <id>https://www.techsudoku.com/general/2022/02/27/office-macros</id>
+        <content type="html"
+            xml:base="https://www.techsudoku.com/general/2022/02/27/office-macros.html"><![CDATA[]]></content>
+        <author>
+            <name></name>
+        </author>
+        <category term="general" />
+        <summary type="html"><![CDATA[Tricking someone into enabling macros on a downloaded Microsoft Excel or Word file is an old hacker chestnut. That one click from a target creates a foothold for attackers to take over their devices. Recently, though, Microsoft announced a seemingly minor tweak with massive implications: Beginning in April, macros will be disabled by default in files downloaded from the internet.]]></summary>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/"
+            url="https://www.techsudoku.com/images/Microsoft_Office_LOGO.png" />
+        <media:content medium="image"
+            url="https://www.techsudoku.com/images/Microsoft_Office_LOGO.png"
+            xmlns:media="http://search.yahoo.com/mrss/" />
+    </entry>
+    <entry>
+        <title type="html">2022</title>
+        <link href="https://www.techsudoku.com/general/2021/12/31/new-year.html" rel="alternate"
+            type="text/html" title="2022" />
+        <published>2021-12-31T00:00:00+05:30</published>
+        <updated>2021-12-31T00:00:00+05:30</updated>
+        <id>https://www.techsudoku.com/general/2021/12/31/new-year</id>
+        <content type="html" xml:base="https://www.techsudoku.com/general/2021/12/31/new-year.html"><![CDATA[]]></content>
+        <author>
+            <name></name>
+        </author>
+        <category term="general" />
+        <summary type="html"><![CDATA[2022 will be the year where everyone can start afresh. For the past two years, people have taken to their homes to abide by the social distancing rule due to the coronavirus pandemic. We have now been considering celebrating this occasion within the comfort of our homes. The new year marks the beginning of new promises, resolutions and life decisions. It is this time of the year when we all can let go of old disputes and fights, and focus on mending everything for the new year to come.]]></summary>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/"
+            url="https://www.techsudoku.com/images/happy-new-year-2022.png" />
+        <media:content medium="image"
+            url="https://www.techsudoku.com/images/happy-new-year-2022.png"
+            xmlns:media="http://search.yahoo.com/mrss/" />
+    </entry>
+    <entry>
+        <title type="html">Log4Shell (CVE-2021-44228)</title>
+        <link href="https://www.techsudoku.com/infosec/2021/12/25/log4j.html" rel="alternate"
+            type="text/html" title="Log4Shell (CVE-2021-44228)" />
+        <published>2021-12-25T23:50:46+05:30</published>
+        <updated>2021-12-25T23:50:46+05:30</updated>
+        <id>https://www.techsudoku.com/infosec/2021/12/25/log4j</id>
+        <content type="html" xml:base="https://www.techsudoku.com/infosec/2021/12/25/log4j.html"><![CDATA[]]></content>
+        <author>
+            <name></name>
+        </author>
+        <category term="infosec" />
+        <summary type="html"><![CDATA[Log4Shell is a vulnerability in Log4j, a popular Java logging framework, involving arbitrary code execution. Apache gave Log4Shell a CVSS severity rating of 10, the highest available score. It is estimated that the exploit affects hundreds of millions of devices and is very simple to execute.]]></summary>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/"
+            url="https://www.techsudoku.com/images/hacker.png" />
+        <media:content medium="image" url="https://www.techsudoku.com/images/hacker.png"
+            xmlns:media="http://search.yahoo.com/mrss/" />
+    </entry>
+</feed>
