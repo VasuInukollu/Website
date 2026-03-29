@@ -14,6 +14,6 @@ features:
     description: Zoho People, Payroll for productivity tracking, Google Business Calls for better answering rates and many more.
     icon: ti ti-settings
 icon: none
-image: /assets/xema-graphic.png
+image: /images/xema-graphic.png
 youtube: none
 ---

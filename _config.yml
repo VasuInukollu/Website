@@ -40,8 +40,6 @@ github_username: techsudoku
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -75,3 +73,16 @@ promoted_product1: xema
 promoted_product2: s3tech
 promoted_service: firewall
 promoted_project: bsnl-karvy-rydberg
+
+cdn_base: "https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed"
+jquery_cdn: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+tether_cdn: "https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"
+bootstrap_cdn: "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"
+jquery_easing_cdn: "https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
+jquery_waypoints_cdn: "https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+jquery_validate_cdn: "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"
+owl_carousel_cdn: "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+prettyphoto_cdn: "https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.min.js"
+numinate_cdn: "https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/js/numinate.min.js?ver=4.9.3"
+main_js_cdn: "https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/js/main.js"
+revolution_cdn: "https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/revolution"

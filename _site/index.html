@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Tech Sudoku</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Tech Sudoku" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://www.techsudoku.com/" />
+<meta property="og:url" content="https://www.techsudoku.com/" />
+<meta property="og:site_name" content="Tech Sudoku" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tech Sudoku" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"Tech Sudoku","name":"Tech Sudoku","url":"https://www.techsudoku.com/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="shortcut icon" href="favicon-32x32.png" />
+    <link rel="stylesheet" type="text/css" href="/assets/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/css/themify-icons.css" />
+    <link rel="stylesheet" type="text/css" href="/css/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="/css/rs6.css">
+    <link rel="stylesheet" type="text/css" href="/css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="/css/shortcodes.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/css/site.css" /><link type="application/atom+xml" rel="alternate" href="https://www.techsudoku.com/feed.xml" title="Tech Sudoku" /></head><body class="ttm-one-page-site">
+
+    <div class="page">
+
+        <!-- preloader start -->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+        <!-- preloader end --><!--header start-->
+<header id="masthead" class="header ttm-header-style-04"><!-- ttm-topbar-wrapper -->
+<div class="ttm-topbar-wrapper ttm-bgcolor-grey clearfix">
+    <div class="container">
+        <div class="ttm-topbar-content">
+            <ul class="top-contact text-left">
+                <!-- <li><i class="fa fa-map-marker"></i>Hyderabad, India</li> -->
+                <li>
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="mailto:info@techsudoku.com">info@techsudoku.com</a>
+                </li>
+            </ul>
+            <div class="topbar-right text-right">
+                <!-- <ul class="top-contact">
+                    <li><i class="fa fa-clock-o"></i>Office Hour: 09:00am - 6:00pm</li>
+                </ul> -->
+                <div class="ttm-social-links-wrapper list-inline pr-0">
+                    <ul class="social-icons">
+                        <li><a href="#" class=" tooltip-bottom" data-tooltip="Facebook"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#" class=" tooltip-bottom" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#" class=" tooltip-bottom" data-tooltip="Linkedin"><i
+                                    class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ttm-topbar-wrapper end -->
+
+<!-- ttm-header-wrap -->
+<div class="ttm-header-wrap" id="ttm-home">
+    <!-- ttm-stickable-header-w -->
+    <div id="ttm-stickable-header-w" class="ttm-stickable-header-w clearfix">
+        <div id="site-header-menu" class="site-header-menu">
+            <div class="site-header-menu-inner ttm-stickable-header">
+                <div class="container">
+                    <!-- site-branding -->
+                    <div class="site-branding">
+                        <a class="home-link" href="/" title="TECH SUDOKU LLP" rel="home">
+                            <img id="logo-img" class="img-fluid" src="/images/logo-horizonal.svg" alt="logo">
+                        </a>
+                    </div>
+                    <!-- site-branding end -->
+                    <!--site-navigation -->
+                    <div id="site-navigation" class="site-navigation" data-sticky-height="70">
+                        <div class="ttm-rt-contact">
+                            <!-- header-icons -->
+                            <!-- <div class="ttm-header-icons">
+                                <div class="ttm-header-icon ttm-header-search-link">
+                                    <a href="#"><i class="ti ti-search"></i></a>
+                                    <div class="ttm-search-overlay">
+                                        <form method="get" class="ttm-site-searchform" action="#">
+                                            <div class="w-search-form-h">
+                                                <div class="w-search-form-row">
+                                                    <div class="w-search-input">
+                                                        <input type="search" class="field searchform-s" name="s"
+                                                            placeholder="Type Word Then Enter...">
+                                                        <button type="submit">
+                                                            <i class="ti ti-search"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- header-icons end -->
+                        </div>
+                        <div class="ttm-menu-toggle">
+                            <input type="checkbox" id="menu-toggle-form" />
+                            <label for="menu-toggle-form" class="ttm-menu-toggle-block">
+                                <span class="toggle-block toggle-blocks-1"></span>
+                                <span class="toggle-block toggle-blocks-2"></span>
+                                <span class="toggle-block toggle-blocks-3"></span>
+                            </label>
+                        </div>
+                        <nav id="menu" class="menu">
+                            <ul class="dropdown">
+                                <li><a aria-current="page" href="/#ttm-home">Home</a></li>
+                                <li>
+                                    <a aria-current="page" href="/#products">Products</a>
+                                    <ul><li><a href="/products/s3tech.html">S3 Stack</a></li><li><a href="/products/xema.html">Xema Platform</a></li></ul>
+                                </li>
+                                <li>
+                                    <a aria-current="page" href="/#services">Services</a>
+                                    <ul><li><a href="/services/database.html">Database Engineering</a></li><li><a href="/services/email.html">Email</a></li><li><a href="/services/firewall.html">Firewall</a></li><li><a href="/services/wireless.html">Wireless Networks</a></li></ul>
+                                </li>
+                                <li><a aria-current="page" href="/#team">Team</a></li>
+                                <li><a aria-current="page" href="/#blog">Blog</a></li>
+                                <li><a aria-current="page" href="/#contact-us">Contact Us</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- site-navigation end-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ttm-stickable-header-w end-->
+</div>
+<!--ttm-header-wrap end --></header>
+<!--header end--><!-- START homeclassicmain REVOLUTION SLIDER 6.0.1 -->
+<rs-module-wrap id="rev_slider_1_1_wrapper" data-source="gallery">
+    <rs-module id="rev_slider_1_1" data-version="6.0.1" class="rev_slider_1_1_height">
+        <rs-slides>
+
+<!-- rs-slide -->
+<rs-slide data-key="rs-1" data-title="Slide" data-thumb="/images/banner-background.jpg"
+    data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+
+    <img src="/images/banner-background.jpg" title="slider-mainbg-004" width="1920" height="790" class="rev-slidebg"
+        data-no-retina>
+
+    <rs-layer id="slider-1-slide-3-layer-0" data-type="text" data-color="#2d4a8a" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,0,-364px;yo:316px,170px,84px,61px;"
+        data-text="w:normal;s:18,15,15,10;l:25,20,15,9;fw:500;" data-vbility="t,t,t,f" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:120;sp:400;sR:120;" data-frame_999="o:0;st:w;sR:8480;"
+        style="z-index:21;font-family:Poppins;">
+        Word and Excel files getting a whole lot safer
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-tagline" id="slider-1-slide-3-layer-3" data-type="text" data-color="#1c2842"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,0;yo:357px,204px,114px,59px;"
+        data-text="w:normal;s:50,41,45,37;l:70,57,50,60;fw:600;" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
+        style="z-index:19;font-family:Poppins;">Microsoft's Small Step to Disable Macros Is a Huge Win for Security
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-description" id="slider-1-slide-3-layer-12" data-type="text" data-color="#6e6e6e"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,-409px;yo:509px,330px,227px,132px;"
+        data-text="w:normal;a:left,left,center;s:15,15,15,9;l:28,23,27,16;fw:400,400,500,500;" data-vbility="t,t,t,f"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:630;sp:500;sR:630;"
+        data-frame_999="o:0;st:w;sR:7870;" style="z-index:17;font-family:Poppins;">
+        Tricking someone into enabling macros on a downloaded Microsoft Excel or Word file is an old hacker chestnut. That one click from a target creates a foothold for attackers to take over their...
+    </rs-layer>
+
+    <rs-layer id="slider-1-slide-3-layer-7" class="tm-img-bounce" data-type="image" data-rsp_ch="on"
+        data-xy="xo:-10px,-132px,-523px,-267px;yo:206px,94px,66px,36px;" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+        data-dim="w:579px,478px,363px,223px;h:553px,456px,346px,213px;" data-vbility="t,t,t,f"
+        data-frame_0="x:-50,-41,-31,-19;" data-frame_1="st:100;sp:1000;" data-frame_999="o:0;st:w;sR:8500;"
+        style="z-index:8;font-family:Roboto;"><img src="/images/Microsoft_Office_LOGO.png" width="598" height="571"
+            alt="banner-single_img2" data-no-retina>
+    </rs-layer>
+
+    <a href="https://www.wired.com/story/microsoft-disables-macros-default-security-phishing/" id="slider-1-slide-3-layer-6" class="rs-layer" target="_self"
+        rel="nofollow" data-type="text" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,-68px,0;yo:598px,403px,319px,180px;"
+        data-text="w:normal;s:15,12,12,12;l:26,22,25,30;fw:600;a:center;"
+        data-padding="t:12,10,8,5;r:35,29,22,14;b:15,12,9,6;l:35,29,22,14;" data-border="bos:none;bow:0px,0px,0px,0px;"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:720;sp:500;sR:720;"
+        data-frame_999="o:0;st:w;sR:7780;" data-frame_hover="c:#fff;bgc:#1c2842;"
+        style="z-index:16;background-color:#2d4a8a;font-family:Poppins;">Read More
+    </a>
+
+</rs-slide>
+<!-- rs-slide -->
+
+
+<!-- product: 0 -->
+
+<!-- rs-slide -->
+<rs-slide data-key="rs-2" data-title="Slide" data-thumb="/images/banner-background.jpg"
+    data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+
+    <img src="/images/banner-background.jpg" title="slider-mainbg-004" width="1920" height="790" class="rev-slidebg"
+        data-no-retina>
+
+    <rs-layer id="slider-2-slide-3-layer-0" data-type="text" data-color="#2d4a8a" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,0,-364px;yo:316px,170px,84px,61px;"
+        data-text="w:normal;s:18,15,15,10;l:25,20,15,9;fw:500;" data-vbility="t,t,t,f" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:120;sp:400;sR:120;" data-frame_999="o:0;st:w;sR:8480;"
+        style="z-index:21;font-family:Poppins;">
+        S3 Stack
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-tagline" id="slider-2-slide-3-layer-3" data-type="text" data-color="#1c2842"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,0;yo:357px,204px,114px,59px;"
+        data-text="w:normal;s:50,41,45,37;l:70,57,50,60;fw:600;" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
+        style="z-index:19;font-family:Poppins;"><span>Low cost cloud for</span> Modern Applications
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-description" id="slider-2-slide-3-layer-12" data-type="text" data-color="#6e6e6e"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,-409px;yo:509px,330px,227px,132px;"
+        data-text="w:normal;a:left,left,center;s:15,15,15,9;l:28,23,27,16;fw:400,400,500,500;" data-vbility="t,t,t,f"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:630;sp:500;sR:630;"
+        data-frame_999="o:0;st:w;sR:7870;" style="z-index:17;font-family:Poppins;">
+        Deploy your applications using open source and standards based cloud infrastructure that allows you to easily port-in and port-out. No strings attached.
+    </rs-layer>
+
+    <rs-layer id="slider-2-slide-3-layer-7" class="tm-img-bounce" data-type="image" data-rsp_ch="on"
+        data-xy="xo:-10px,-132px,-523px,-267px;yo:206px,94px,66px,36px;" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+        data-dim="w:579px,478px,363px,223px;h:553px,456px,346px,213px;" data-vbility="t,t,t,f"
+        data-frame_0="x:-50,-41,-31,-19;" data-frame_1="st:100;sp:1000;" data-frame_999="o:0;st:w;sR:8500;"
+        style="z-index:8;font-family:Roboto;"><img src="/images/single_01.png" width="598" height="571"
+            alt="banner-single_img2" data-no-retina>
+    </rs-layer>
+
+    <a href="/products/s3tech.html" id="slider-2-slide-3-layer-6" class="rs-layer" target="_self"
+        rel="nofollow" data-type="text" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,-68px,0;yo:598px,403px,319px,180px;"
+        data-text="w:normal;s:15,12,12,12;l:26,22,25,30;fw:600;a:center;"
+        data-padding="t:12,10,8,5;r:35,29,22,14;b:15,12,9,6;l:35,29,22,14;" data-border="bos:none;bow:0px,0px,0px,0px;"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:720;sp:500;sR:720;"
+        data-frame_999="o:0;st:w;sR:7780;" data-frame_hover="c:#fff;bgc:#1c2842;"
+        style="z-index:16;background-color:#2d4a8a;font-family:Poppins;">Know More
+    </a>
+
+</rs-slide>
+<!-- rs-slide -->
+
+
+<!-- service: 0 -->
+
+<!-- rs-slide -->
+<rs-slide data-key="rs-4" data-title="Slide" data-thumb="/images/banner-background.jpg"
+    data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+
+    <img src="/images/banner-background.jpg" title="slider-mainbg-004" width="1920" height="790" class="rev-slidebg"
+        data-no-retina>
+
+    <rs-layer id="slider-4-slide-3-layer-0" data-type="text" data-color="#2d4a8a" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,0,-364px;yo:316px,170px,84px,61px;"
+        data-text="w:normal;s:18,15,15,10;l:25,20,15,9;fw:500;" data-vbility="t,t,t,f" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:120;sp:400;sR:120;" data-frame_999="o:0;st:w;sR:8480;"
+        style="z-index:21;font-family:Poppins;">
+        Database Engineering
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-tagline" id="slider-4-slide-3-layer-3" data-type="text" data-color="#1c2842"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,0;yo:357px,204px,114px,59px;"
+        data-text="w:normal;s:50,41,45,37;l:70,57,50,60;fw:600;" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
+        style="z-index:19;font-family:Poppins;">Database Engineering
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-description" id="slider-4-slide-3-layer-12" data-type="text" data-color="#6e6e6e"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,-409px;yo:509px,330px,227px,132px;"
+        data-text="w:normal;a:left,left,center;s:15,15,15,9;l:28,23,27,16;fw:400,400,500,500;" data-vbility="t,t,t,f"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:630;sp:500;sR:630;"
+        data-frame_999="o:0;st:w;sR:7870;" style="z-index:17;font-family:Poppins;">
+        This is a description of the database engineering service.
+    </rs-layer>
+
+    <rs-layer id="slider-4-slide-3-layer-7" class="tm-img-bounce" data-type="image" data-rsp_ch="on"
+        data-xy="xo:-10px,-132px,-523px,-267px;yo:206px,94px,66px,36px;" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+        data-dim="w:579px,478px,363px,223px;h:553px,456px,346px,213px;" data-vbility="t,t,t,f"
+        data-frame_0="x:-50,-41,-31,-19;" data-frame_1="st:100;sp:1000;" data-frame_999="o:0;st:w;sR:8500;"
+        style="z-index:8;font-family:Roboto;"><img src="/images/database.png" width="598" height="571"
+            alt="banner-single_img2" data-no-retina>
+    </rs-layer>
+
+    <a href="/services/database.html" id="slider-4-slide-3-layer-6" class="rs-layer" target="_self"
+        rel="nofollow" data-type="text" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,-68px,0;yo:598px,403px,319px,180px;"
+        data-text="w:normal;s:15,12,12,12;l:26,22,25,30;fw:600;a:center;"
+        data-padding="t:12,10,8,5;r:35,29,22,14;b:15,12,9,6;l:35,29,22,14;" data-border="bos:none;bow:0px,0px,0px,0px;"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:720;sp:500;sR:720;"
+        data-frame_999="o:0;st:w;sR:7780;" data-frame_hover="c:#fff;bgc:#1c2842;"
+        style="z-index:16;background-color:#2d4a8a;font-family:Poppins;">Know More
+    </a>
+
+</rs-slide>
+<!-- rs-slide -->
+
+
+<!-- project: 0 -->
+
+<!-- rs-slide -->
+<rs-slide data-key="rs-3" data-title="Slide" data-thumb="/images/banner-background.jpg"
+    data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+
+    <img src="/images/banner-background.jpg" title="slider-mainbg-004" width="1920" height="790" class="rev-slidebg"
+        data-no-retina>
+
+    <rs-layer id="slider-3-slide-3-layer-0" data-type="text" data-color="#2d4a8a" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,0,-364px;yo:316px,170px,84px,61px;"
+        data-text="w:normal;s:18,15,15,10;l:25,20,15,9;fw:500;" data-vbility="t,t,t,f" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:120;sp:400;sR:120;" data-frame_999="o:0;st:w;sR:8480;"
+        style="z-index:21;font-family:Poppins;">
+        Call center solution for a Telco
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-tagline" id="slider-3-slide-3-layer-3" data-type="text" data-color="#1c2842"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,0;yo:357px,204px,114px,59px;"
+        data-text="w:normal;s:50,41,45,37;l:70,57,50,60;fw:600;" data-frame_0="x:-50,-41,-31,-19;"
+        data-frame_1="e:Linear.easeNone;st:260;sp:800;sR:260;" data-frame_999="o:0;st:w;sR:7940;"
+        style="z-index:19;font-family:Poppins;">CRM for 6 call centers of <span>a PSU</span>
+    </rs-layer>
+
+    <rs-layer class="homepage-banner-description" id="slider-3-slide-3-layer-12" data-type="text" data-color="#6e6e6e"
+        data-rsp_ch="on" data-xy="x:l,l,c,c;xo:680px,561px,0,-409px;yo:509px,330px,227px,132px;"
+        data-text="w:normal;a:left,left,center;s:15,15,15,9;l:28,23,27,16;fw:400,400,500,500;" data-vbility="t,t,t,f"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:630;sp:500;sR:630;"
+        data-frame_999="o:0;st:w;sR:7870;" style="z-index:17;font-family:Poppins;">
+        A total of 10 call centers were setup across India for BSNL to handle customer support requirements. Six of them run on Xema Platform. The CRM is integrated with BSNL backend systems for...
+    </rs-layer>
+
+    <rs-layer id="slider-3-slide-3-layer-7" class="tm-img-bounce" data-type="image" data-rsp_ch="on"
+        data-xy="xo:-10px,-132px,-523px,-267px;yo:206px,94px,66px,36px;" data-text="w:normal;s:20,16,12,7;l:0,20,15,9;"
+        data-dim="w:579px,478px,363px,223px;h:553px,456px,346px,213px;" data-vbility="t,t,t,f"
+        data-frame_0="x:-50,-41,-31,-19;" data-frame_1="st:100;sp:1000;" data-frame_999="o:0;st:w;sR:8500;"
+        style="z-index:8;font-family:Roboto;"><img src="none" width="598" height="571"
+            alt="banner-single_img2" data-no-retina>
+    </rs-layer>
+
+    <a href="/projects/bsnl-karvy-rydberg.html" id="slider-3-slide-3-layer-6" class="rs-layer" target="_self"
+        rel="nofollow" data-type="text" data-rsp_ch="on"
+        data-xy="x:l,l,c,c;xo:680px,561px,-68px,0;yo:598px,403px,319px,180px;"
+        data-text="w:normal;s:15,12,12,12;l:26,22,25,30;fw:600;a:center;"
+        data-padding="t:12,10,8,5;r:35,29,22,14;b:15,12,9,6;l:35,29,22,14;" data-border="bos:none;bow:0px,0px,0px,0px;"
+        data-frame_0="y:50,41,31,19;" data-frame_1="e:Linear.easeNone;st:720;sp:500;sR:720;"
+        data-frame_999="o:0;st:w;sR:7780;" data-frame_hover="c:#fff;bgc:#1c2842;"
+        style="z-index:16;background-color:#2d4a8a;font-family:Poppins;">Know More
+    </a>
+
+</rs-slide>
+<!-- rs-slide --></rs-slides>
+    </rs-module>
+    <!-- rs-module -->
+</rs-module-wrap>
+<!-- END REVOLUTION SLIDER --><div class="site-main"><!-- topzero-padding-section -->
+<section id="products" class="ttm-row topzero-padding-section vector_bg-img1 clearfix">
+    <div class="container">
+        <div class="row">
+
+
+
+
+
+<!-- row -->
+<div class="col-lg-6">
+    <div class="pt-30 res-991-pt-0">
+        <!-- section title -->
+        <div class="section-title with-desc clearfix">
+            <div class="title-header">
+                <h5>Xema Platform</h5>
+                <h2 class="title">Unified Contact Center platform for <span>Voice, Email, Chat, and Social Media</span></h2>
+            </div>
+            <div class="title-desc">
+                <p>Xema is AI driven, edge-deployed, multi-channel contact center platform that enables multi-skilled, blended Agents handle diverse tasks using skill based routing.</p>
+            </div>
+        </div>
+        <!-- section title end -->
+        <!-- row -->
+        <div class="row mt-20">
+            <div class="col-md-6 col-lg-6 col-sm-6">
+                <!--  featured-icon-box -->
+                <div class="featured-icon-box style3 left-icon icon-align-top">
+                    <div class="featured-icon">
+                        <!--  featured-icon -->
+                        <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                            <i class="ti ti-layers-alt"></i>
+                            <!--  ttm-icon -->
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <!--  featured-content -->
+                        <div class="featured-title mb-5">
+                            <!--  featured-title -->
+                            <h5>IVR editor</h5>
+                        </div>
+                        <div class="featured-desc">
+                            <!--  featured-desc -->
+                            <p>Edit an IVR on the fly and deploy</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  featured-icon-box END -->
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-6">
+                <!--  featured-icon-box -->
+                <div class="featured-icon-box style3 left-icon icon-align-top">
+                    <div class="featured-icon">
+                        <!--  featured-icon -->
+                        <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                            <i class="ti ti-panel"></i>
+                            <!--  ttm-icon -->
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <!--  featured-content -->
+                        <div class="featured-title mb-5">
+                            <!--  featured-title -->
+                            <h5>CTI, Dialer and more</h5>
+                        </div>
+                        <div class="featured-desc">
+                            <!--  featured-desc -->
+                            <p>Standard call center requirements</p>
+                        </div>
+                    </div>
+                </div>
+                <!--  featured-icon-box END -->
+            </div>
+        </div>
+        <!-- row END-->
+        <!-- separator -->
+        <div class="separator">
+            <div class="sep-line mt-35 mb-30"></div>
+        </div>
+        <!-- separator -->
+        <!--  featured-icon-box -->
+        <div class="featured-icon-box style3 left-icon icon-align-top">
+            <div class="featured-icon">
+                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                    <i class="ti ti-settings"></i>
+                </div>
+                <!-- <img src="images/about-sign-2.png" alt="about-sign"> -->
+            </div>
+            <div class="featured-content">
+                <!--  featured-content -->
+                <div class="featured-title">
+                    <!--  featured-title -->
+                    <h5>Integrations</h5>
+                </div>
+                <div class="featured-desc">
+                    <!--  featured-desc -->
+                    <p>Zoho People, Payroll for productivity tracking, Google Business Calls for better answering rates and many more.</p>
+                </div>
+            </div>
+        </div>
+        <!--  featured-icon-box END -->
+    </div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-10 col-10 m-auto">
+    <!-- ttm_single_image-wrapper -->
+    <div class="ttm_single_image-wrapper pt-30">
+        <img class="img-fluid" src="/images/xema-graphic.png" alt="Xema Platform">
+    </div>
+    <!-- ttm_single_image-wrapper end -->
+</div></div>
+        <!-- row end -->
+        <!-- row -->
+        <div class="row">
+        </div>
+        <!-- row end-->
+        <div class="row pt-90 res-991-pt-50">
+
+
+
+
+
+<!-- row -->
+<div class="col-lg-6 col-md-6 col-sm-10 col-10 m-auto">
+    <!-- ttm_single_image-wrapper -->
+    <div class="ttm_single_image-wrapper">
+        <img class="img-fluid" src="/images/single_01.png" alt="S3 Stack">
+    </div>
+    <!-- ttm_single_image-wrapper end -->
+</div>
+<div class="col-lg-6">
+    <div class="pl-30 res-991-pl-0 res-991-mt-40">
+        <!-- section title -->
+        <div class="section-title with-desc clearfix">
+            <div class="title-header">
+                <h5>S3 Stack</h5>
+                <h2 class="title"><span>Low cost cloud for</span> Modern Applications</h2>
+            </div>
+            <div class="title-desc">
+                <p>Deploy your applications using open source and standards based cloud infrastructure that allows you to easily port-in and port-out. No strings attached.</p>
+            </div>
+        </div>
+        <!-- section title end -->
+        <div class="pt-30 ttm-textcolor-darkgrey">
+            <!-- progress-bar -->
+            <div class="ttm-progress-bar" data-percent="82%">
+                <div class="progress-bar-title">Ease of Deployment</div>
+                <!-- progress-bar-TITLE -->
+                <div class="progress-bar-inner">
+                    <div class="progress-bar progress-bar-color-bar_skincolor"></div>
+                </div>
+                <div class="progress-bar-percent" data-percentage="82">82%</div>
+                <!-- progress-bar-PERCENT -->
+            </div>
+            <!-- progress-bar END -->
+            <!-- progress-bar -->
+            <div class="ttm-progress-bar" data-percent="92%">
+                <div class="progress-bar-title">Open Source, AWS, Azure Compatibility</div>
+                <!-- progress-bar-title -->
+                <div class="progress-bar-inner">
+                    <div class="progress-bar progress-bar-color-bar_skincolor"></div>
+                </div>
+                <div class="progress-bar-percent" data-percentage="92">92%</div>
+                <!-- progress-bar-percent -->
+            </div>
+            <!-- progress-bar END -->
+            <!-- progress-bar -->
+            <div class="ttm-progress-bar" data-percent="35%">
+                <div class="progress-bar-title">Cost</div>
+                <!-- progress-bar-title -->
+                <div class="progress-bar-inner">
+                    <div class="progress-bar progress-bar-color-bar_skincolor"></div>
+                </div>
+                <div class="progress-bar-percent" data-percentage="35">35%</div>
+                <!-- progress-bar-percent -->
+            </div>
+            <!-- progress-bar END -->
+        </div>
+    </div>
+</div></div>
+    </div>
+</section>
+<!-- topzero-padding-section end -->
+
+
+<!-- cta-section -->
+<section class="ttm-row cta-section vector_bg-img2 clearfix">
+    <div class="container">
+        <div class="row align-items-md-center justify-content-between">
+            <!-- row -->
+            <div class="col-lg-7 col-md-7 mr-auto">
+                <!-- section-title -->
+                <div class="section-title clearfix">
+                    <div class="title-header">
+                        <h5>Call center solution for a Telco</h5>
+                        <h2 class="title">CRM for 6 call centers of <span>a PSU</span></h2>
+                    </div>
+                    <div class="title-desc">A total of 10 call centers were setup across India for BSNL to handle customer support requirements. Six of them run on Xema Platform. The CRM is integrated with BSNL backend systems for real time activation of SIM cards on IVR. The entire solution is implemented using Cisco hardware.</div>
+                </div>
+                <!-- section-title end -->
+                <div class="mt-40 res-991-mb-30">
+                    <a href="/projects/bsnl-karvy-rydberg.html"
+                        class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-btn-color-darkgrey">Read
+                        more</a>
+                </div>
+            </div>
+            <div class="col-lg-1 col-md-2">
+                <div class="ttm-play-icon-btn m-auto d-block text-center">
+                    <div class="ttm-play-icon-animation">
+                        <a href="https://www.youtube.com/watch?v=eIzWsMI6YF0" target="_self" class="ttm_prettyphoto">
+                            <div
+                                class="ttm-icon ttm-icon_element-bgcolor-white ttm-icon_element-size-sm ttm-icon_element-style-round">
+                                <i class="fa fa-play"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- cta-section END--><!-- services-section -->
+<section id="services" class="ttm-row services_2-section vector_bg-img3 clearfix">
+    <div class="container"><div class="row">
+    <!-- row -->
+    <div class="col-lg-7 col-md-7 col-sm-10 m-auto">
+        <!-- section title -->
+        <div class="section-title with-desc text-center clearfix">
+            <div class="title-header">
+                <h5>Our Services</h5>
+                <h2 class="title">We enable small & medium businesses in <span>digital transformation</span></h2>
+            </div>
+        </div>
+        <!-- section title end -->
+    </div>
+</div>
+<!-- row end -->
+
+<div class="ttm-boxes-quickservicebox position-relative mt-10">
+    <div class="history-slide owl-carousel" data-item="3" data-nav="false" data-dots="false" data-auto="true"><!-- featured-icon-box -->
+        <div class="featured-icon-box style9">
+            <div class="featured-icon">
+                <!--  featured-icon -->
+                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                    <i class="flaticon flaticon-web"></i>
+                    <!--  ttm-icon -->
+                </div>
+                <!-- <div class="servicebox-number"></div> -->
+            </div>
+            <div class="featured-content">
+                <div class="featured-title">
+                    <h5>Database Engineering</h5>
+                </div>
+                <div class="featured-desc">
+                    This is a description of the database engineering service.
+                </div>
+                <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-dark btn-inline ttm-icon-btn-right mt-20" href="#">Read
+                    More <i class="ti ti-angle-double-right"></i></a>
+            </div>
+        </div>
+        <!-- featured-icon-box END--><!-- featured-icon-box -->
+        <div class="featured-icon-box style9">
+            <div class="featured-icon">
+                <!--  featured-icon -->
+                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                    <i class="flaticon flaticon-global"></i>
+                    <!--  ttm-icon -->
+                </div>
+                <!-- <div class="servicebox-number"></div> -->
+            </div>
+            <div class="featured-content">
+                <div class="featured-title">
+                    <h5>Email</h5>
+                </div>
+                <div class="featured-desc">
+                    Email service for sending emails.
+                </div>
+                <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-dark btn-inline ttm-icon-btn-right mt-20" href="#">Read
+                    More <i class="ti ti-angle-double-right"></i></a>
+            </div>
+        </div>
+        <!-- featured-icon-box END--><!-- featured-icon-box -->
+        <div class="featured-icon-box style9">
+            <div class="featured-icon">
+                <!--  featured-icon -->
+                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                    <i class="flaticon flaticon-padlock"></i>
+                    <!--  ttm-icon -->
+                </div>
+                <!-- <div class="servicebox-number"></div> -->
+            </div>
+            <div class="featured-content">
+                <div class="featured-title">
+                    <h5>Firewall</h5>
+                </div>
+                <div class="featured-desc">
+                    The firewall service provides a simple way to manage firewall rules. It is a singleton service that is available to all instances. It is not possible to create multiple instances...
+                </div>
+                <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-dark btn-inline ttm-icon-btn-right mt-20" href="#">Read
+                    More <i class="ti ti-angle-double-right"></i></a>
+            </div>
+        </div>
+        <!-- featured-icon-box END--><!-- featured-icon-box -->
+        <div class="featured-icon-box style9">
+            <div class="featured-icon">
+                <!--  featured-icon -->
+                <div class="ttm-icon ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                    <i class="flaticon flaticon-data"></i>
+                    <!--  ttm-icon -->
+                </div>
+                <!-- <div class="servicebox-number"></div> -->
+            </div>
+            <div class="featured-content">
+                <div class="featured-title">
+                    <h5>Wireless Networks</h5>
+                </div>
+                <div class="featured-desc">
+                    Wireless networks are a great way to connect to the internet. They are easy to set up and easy to use. They are also very secure. They are also very...
+                </div>
+                <a class="ttm-btn ttm-btn-size-sm ttm-btn-color-dark btn-inline ttm-icon-btn-right mt-20" href="#">Read
+                    More <i class="ti ti-angle-double-right"></i></a>
+            </div>
+        </div>
+        <!-- featured-icon-box END--></div>
+</div>
+<!-- row end-->
+
+
+
+
+<div class="row pt-90">
+    <!-- row -->
+    <div class="col-lg-6 col-md-6 col-sm-10 col-10 m-auto">
+        <!-- ttm_single_image-wrapper -->
+        <div class="ttm_single_image-wrapper">
+            <img class="img-fluid" src="/images/infosec.png" alt="single-03">
+        </div>
+        <!-- ttm_single_image-wrapper end -->
+    </div>
+    <div class="col-lg-6">
+        <div class="pl-30 res-991-pl-0 res-991-mt-40">
+            <!-- section title -->
+            <div class="section-title with-desc clearfix">
+                <div class="title-header">
+                    <h5>Firewall</h5>
+                    <h2 class="title">A firewall is a system that protects your computer from <span>intruders</span></h2>
+                </div>
+                <div class="title-desc">
+                    <p>The firewall service provides a simple way to manage firewall rules. It is a singleton service that is available to all instances. It is not possible to create multiple instances of the firewall service. The firewall service is not available to instances that are not running in the cloud.</p>
+                </div>
+            </div>
+            <!-- section title end -->
+            <div class="mt-25">
+                <!-- featured-icon-box -->
+                <div class="featured-icon-box left-icon icon-align-top">
+                    <div class="featured-icon">
+                        <div
+                            class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-bgcolor-skincolor ttm-icon_element-size-xs ttm-icon_element-style-round pl-0">
+                            <i class="ti ti-info ttm-num font-weight-bold"></i>
+                        </div>
+                    </div>
+                    <div class="featured-content">
+                        <!-- featured-content -->
+                        <div class="featured-title">
+                            <!-- featured-title -->
+                            <h5>Stateful inspection</h5>
+                        </div>
+                        <div class="featured-desc">
+                            <!-- featured-desc -->
+                            <p>The firewall service can inspect the state of the firewall rules and the state of the network interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- featured-icon-box -->
+            </div>
+            <div class="separator">
+                <div class="sep-line mt-30 mb-30"></div>
+            </div>
+            <!-- featured-icon-box -->
+            <div class="featured-icon-box left-icon icon-align-top">
+                <div class="featured-icon">
+                    <div
+                        class="ttm-icon ttm-icon_element-fill ttm-icon_element-color-white ttm-icon_element-bgcolor-skincolor ttm-icon_element-size-xs ttm-icon_element-style-round pl-0">
+                        <i class="ti ti-info ttm-num font-weight-bold"></i>
+                    </div>
+                </div>
+                <div class="featured-content">
+                    <div class="featured-title">
+                        <!-- featured-title -->
+                        <h5>Firewall rules</h5>
+                    </div>
+                    <div class="featured-desc">
+                        <!-- featured-desc -->
+                        <p>The firewall service can manage firewall rules.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- featured-icon-box -->
+        </div>
+    </div>
+</div></div>
+</section>
+<!-- services-section end --><!-- team.html -->
+
+    <!-- blog.html -->
+
+</div><!--footer start-->
+<footer id="contact-us" class="footer widget-footer clearfix">
+    <div class="first-footer ttm-bgcolor-skincolor ttm-bg ttm-bgimage-yes bg-img1">
+        <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
+        <div class="container">
+            <div class="row align-items-md-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 order-md-2">
+                    <div class="footer-logo text-sm-center">
+                        <img src="/images/logo-horizonal.svg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 order-md-1">
+                    <div class="text-left">
+                        <!--  featured-icon-box -->
+                        <div class="featured-icon-box left-icon icon-align-top">
+                            <div class="featured-icon">
+                                <!--  featured-icon -->
+                                <div class="ttm-icon ttm-icon_element-color-white ttm-icon_element-size-md">
+                                    <i class="ti ti-location-pin"></i>
+                                    <!--  ttm-icon -->
+                                </div>
+                            </div>
+                            <div class="featured-content">
+                                <!--  featured-content -->
+                                <div class="featured-desc">
+                                    <p>Financial District, Gachibowli, Hyderabad, India - 500032</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  featured-icon-box END -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 order-md-3">
+                    <div class="text-sm-right">
+                        <a class="ttm-btn ttm-btn-size-md ttm-btn-style-border ttm-icon-btn-left ttm-btn-color-white"
+                            href="mailto:info@techsudoku.com"> info@techsudoku.com <i class="fa fa-envelope-o"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="second-footer ttm-textcolor-white bg-img2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                    <div class="widget widget_text  clearfix">
+                        <h3 class="widget-title">About Us</h3>
+                        <div class="textwidget widget-text">
+                            We at Tech Sudoku optimise an organisation's core technology solutions and help  improve productivity. We help our customers pick a solution that not only fits them  well but also reflects their openness in their partner ecosystem.
+                        </div>
+                        <div class="quicklink-box">
+                            <!--  featured-icon-box -->
+                            <div class="featured-icon-box left-icon">
+                                <div class="featured-icon">
+                                    <!--  featured-icon -->
+                                    <div
+                                        class="ttm-icon ttm-icon_element-style-round ttm-icon_element-bgcolor-skincolor ttm-icon_element-size-md ttm-icon_element-style-round">
+                                        <span class="flaticon flaticon-clock"></span>
+                                        <!--  ttm-icon -->
+                                    </div>
+                                </div>
+                                <div class="featured-content">
+                                    <!--  featured-content -->
+                                    <div class="featured-desc">
+                                        <!--  featured-desc -->
+                                        <p>Talk To Our Support</p>
+                                    </div>
+                                    <div class="featured-title">
+                                        <!--  featured-title -->
+                                        <h5>+91 90003 98877</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--  featured-icon-box END -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                    <div class="widget link-widget clearfix">
+                        <h3 class="widget-title">Quick Links</h3>
+                        <ul id="menu-footer-services">
+                            <li><a href="/make-appointment">Make Appointment</a></li>
+                            <li><a href="/case-studies">Our Case Studies</a></li>
+                            <li><a href="/meet-our-expers">Meet Our Experts</a></li>
+                        </ul>
+                    </div>
+                </div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+    <div class="widget widget_text clearfix">
+        <h3 class="widget-title">Latest News</h3>
+        <ul class="widget-post ttm-recent-post-list"><li>
+                <a href="https://www.wired.com/story/microsoft-disables-macros-default-security-phishing/">
+                    <img src="/images/Microsoft_Office_LOGO.png" alt="post-img">
+                </a>
+                <a href="https://www.wired.com/story/microsoft-disables-macros-default-security-phishing/">Word and Excel...</a><span class="post-date"><i class="fa fa-calendar"></i>Feb 27, 2022</span>
+            </li><li>
+                <a href="https://www.techsudoku.com">
+                    <img src="/images/happy-new-year-2022.png" alt="post-img">
+                </a>
+                <a href="https://www.techsudoku.com">2022</a><span class="post-date"><i class="fa fa-calendar"></i>Dec 31, 2021</span>
+            </li><li>
+                <a href="https://en.wikipedia.org/wiki/Log4Shell">
+                    <img src="/images/hacker.png" alt="post-img">
+                </a>
+                <a href="https://en.wikipedia.org/wiki/Log4Shell">Log4Shell (CVE-2021-44228)</a><span class="post-date"><i class="fa fa-calendar"></i>Dec 25, 2021</span>
+            </li></ul>
+    </div>
+</div><div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
+                    <div class="widget flicker_widget clearfix">
+                        <h3 class="widget-title">News Letter</h3>
+                        <div class="textwidget widget-text">
+                            Sign up today for hints, tips and the latest product news
+                            <form id="subscribe-form" class="newsletter-form" method="post" action="#"
+                                data-mailchimp="true">
+                                <div class="mailchimp-inputbox clearfix" id="subscribe-content">
+                                    <i class="fa fa-envelope"></i>
+                                    <input type="email" name="email" placeholder="Email Address.." required="">
+                                    <input type="submit" value="">
+                                </div>
+                                <div id="subscribe-msg"></div>
+                            </form>
+                            <h5 class="mb-20">Follow Us On</h5>
+                            <div class="social-icons circle social-hover">
+                                <ul class="list-inline">
+                                    <li class="social-facebook"><a class="tooltip-top" target="_blank" href="#"
+                                            data-tooltip="Facebook"><i class="fa fa-facebook"
+                                                aria-hidden="true"></i></a></li>
+                                    <li class="social-twitter"><a class="tooltip-top" target="_blank" href="#"
+                                            data-tooltip="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    </li>
+                                    <li class="social-linkedin"><a class=" tooltip-top" target="_blank" href=""
+                                            data-tooltip="LinkedIn"><i class="fa fa-linkedin"
+                                                aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-footer-text ttm-bgcolor-darkgrey ttm-textcolor-white">
+        <div class="container">
+            <div class="row copyright">
+                <div class="col-md-6">
+                    <div class="">
+                        <span>© Tech Sudoku 2021</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-md-right res-767-mt-10">
+                        <div class="d-lg-inline-flex">
+                            <ul id="menu-footer-menu" class="footer-nav-menu">
+                                <li><a href="/privacy.html">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+
+<!--back-to-top start-->
+<a id="totop" href="#top">
+    <i class="fa fa-angle-up"></i>
+</a>
+<!--back-to-top end-->
+
+
+<!-- Javascript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.7/js/tether.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/js/numinate.min.js?ver=4.9.3"></script>
+<script src="https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/js/main.js"></script>
+
+<!-- Revolution Slider -->
+<script src="https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/revolution/js/revolution.tools.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/revolution/js/rs6.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/TechSudoku/Website@ddd993bc29a92ebbdd866272e67eebd650fb88ed/revolution/js/slider.js"></script>
+<!-- Javascript end--></div>
+
+</body>
+
+</html>
